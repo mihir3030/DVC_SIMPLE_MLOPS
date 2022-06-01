@@ -18,7 +18,7 @@ def get_data(config_path):
 
     raw_local_file = config['artifacts']['raw_local_file']
 
-    # we have got all informations. 
+    # we got all informations. 
     # create path of directory
     raw_local_dir_path = os.path.join(artifacts_dir, raw_local_dir)
 
