@@ -7,7 +7,7 @@ import joblib
 
 
 
-def split_and_save(config_path, params_path):
+def train(config_path, params_path):
     config = read_yaml(config_path)  # read config from yaml file
     params = read_yaml(params_path)
 
@@ -54,4 +54,4 @@ if __name__ == '__main__':
 
     parsed_args = args.parse_args()
    
-    split_and_save(config_path=parsed_args.config, params_path=parsed_args.params)
+    train(config_path=parsed_args.config, params_path=parsed_args.params)
