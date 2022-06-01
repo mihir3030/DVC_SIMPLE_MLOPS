@@ -39,12 +39,6 @@ def split_and_save(config_path, params_path):
         save_local_df(data, data_path)
 
 
-
-
-    
-
-
-
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
 
