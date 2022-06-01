@@ -1,6 +1,13 @@
+# data location
 data_source: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
 
+# directory
+# our data.csv directory where to save
 artifacts:
   artifacts_dir: artifacts
   raw_local_dir: raw_local_dir
   raw_local_file: data.csv
+
+  split_data_dir: split_data_dir
+  train: train.csv
+  test: test.csv
