@@ -10,8 +10,8 @@ stages:
       md5: 786c199a1c2802b652ca0737785033e5
       size: 1542
     - path: src/utils/all_utils.py
-      md5: 0c6596066ca3b677bf2b4478aea61036
-      size: 560
+      md5: a5af3977b8169c604df73637bee0676a
+      size: 574
     outs:
     - path: artifacts/raw_local_dir/data.csv
       md5: 7d814a1bda02145efe703f4e1c01847a
